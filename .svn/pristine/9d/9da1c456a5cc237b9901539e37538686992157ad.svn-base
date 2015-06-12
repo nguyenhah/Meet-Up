@@ -1,0 +1,69 @@
+package ca.ubc.cs.cpsc210.meetup.Parsers;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONTokener;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+import ca.ubc.cs.cpsc210.meetup.R;
+import ca.ubc.cs.cpsc210.meetup.model.CourseFactory;
+import ca.ubc.cs.cpsc210.meetup.model.Section;
+import ca.ubc.cs.cpsc210.meetup.util.SchedulePlot;
+
+/**
+ * Created by Ha on 3/19/2015.
+ */
+public class RandomStudentScheduleParser {
+    private String studentFName;
+    private String studentLName;
+    private int studentId;
+
+    public RandomStudentScheduleParser(){
+
+    }
+
+    public SchedulePlot parse(String url, String activeDay) {
+        SchedulePlot ran = null;
+        SortedSet<Section> sec = new TreeSet<>();
+        CourseFactory courseFactory = CourseFactory.getInstance();
+        JSONTokener token = new JSONTokener(url);
+        try {
+            JSONObject top = new JSONObject(token);
+            studentFName = top.getString("FirstName");
+            studentLName = top.getString("LastName");
+            studentId = Integer.parseInt(top.getString("StudentId"));
+            String colourOfLine = "#000000";
+            int iconToUseForBuilding = R.drawable.ic_action_place;
+            JSONArray sections = top.getJSONArray("Sections");
+            for (int x = 0; x < sections.length(); x++) {
+                String cName = sections.getJSONObject(x).getString("CourseName");
+                int cNum = Integer.parseInt(sections.getJSONObject(x).getString("CourseNumber"));
+                String sName = sections.getJSONObject(x).getString("SectionName");
+                //if (courseFactory.getCourse(cName, cNum).getSection(sName).getDayOfWeek().equals(activeDay)) {
+                //Section currentSection = courseFactory.getCourse(cName, cNum).getSection(sName);
+                //sec.add(currentSection);
+                // }
+            }
+            ran = new SchedulePlot(null, studentFName, colourOfLine, iconToUseForBuilding);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return ran;
+    }
+
+    public String getStudentFName() {
+        return studentFName;
+    }
+
+    public String getStudentLName() {
+        return studentLName;
+    }
+
+    public int getStudentId() {
+        return studentId;
+    }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\classes-b0966b6a1bb6fb2730d15207a077467213d84722.jar" />
+    </item>
+    <item
+        jar="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-eb957ccaf17e4dfabbc4933da0807b41237d1079.jar" />
+    </item>
+    <item
+        jar="C:\Users\Son\.gradle\caches\modules-2\files-2.1\org.osmdroid\osmdroid-android\4.2\f3a0c73a9ed04a5d0959789c53da9f08462bfcc2\osmdroid-android-4.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3a0c73a9ed04a5d0959789c53da9f08462bfcc2">
+        <dex dex="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\osmdroid-android-4.2-35273830af1037e734b912341ef2dfde552073c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Son\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.6.1\6f3b8a24bf970f17289b234284c94f43eb42f0e4\slf4j-api-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6f3b8a24bf970f17289b234284c94f43eb42f0e4">
+        <dex dex="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\slf4j-api-1.6.1-ba23d928d4bb8a44843430be4c33bc729521f5df.jar" />
+    </item>
+    <item
+        jar="C:\Users\Son\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-simple\1.6.1\58e59bfb3e247097b8122243b3bfe0049c8cfae8\slf4j-simple-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="58e59bfb3e247097b8122243b3bfe0049c8cfae8">
+        <dex dex="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\slf4j-simple-1.6.1-8ebc0fb2775bf3dd95de8affc38ac1c3f7de9684.jar" />
+    </item>
+    <item
+        jar="C:\Users\Son\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-5b4e3dc09eaa823efa4bbe299d3b849dfcc2df0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Son\AndroidStudioProjects\MeetUp-Phase2\app\build\intermediates\pre-dexed\debug\classes-4c23fe895e1af2637f9a402491d42c1eb9c3b392.jar" />
+    </item>
+
+</items>
